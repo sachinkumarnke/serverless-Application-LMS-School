@@ -60,7 +60,7 @@ This project demonstrates a **fully serverless web application** built using cor
 
 1. **Clone the Repo**  
    ```bash
-   git clone https://github.com/yourusername/student-data-serverless.git
+   https://github.com/sachinkumarnke/serverless-Application-LMS-School.git
 
 
 **2.** Upload Frontend to S3
