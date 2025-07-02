@@ -100,3 +100,12 @@ Open S3 website link
 Add a student and see it reflected in the table
 
 
+📃 License
+This project is open-source and available under the MIT License.
+
+
+🙌 Acknowledgements
+AWS for providing a robust serverless ecosystem
+
+You, for deploying and exploring cloud-native architecture
+
