@@ -58,12 +58,12 @@ This project demonstrates a **fully serverless web application** built using cor
 
 ## 📦 How to Deploy
 
-1. **Clone the Repo**  
+# 1. **Clone the Repo**  
    ```bash
    https://github.com/sachinkumarnke/serverless-Application-LMS-School.git
 
 
-**2.** Upload Frontend to S3
+# 2  Upload Frontend to S3
 
 Enable static website hosting
 
@@ -71,13 +71,13 @@ Set bucket policy to public
 
 Upload index.html, script.js, style.css
 
-**3.**Create DynamoDB Table
+# 3 Create DynamoDB Table
 
 Table Name: Students
 
 Primary Key: student_id (String)
 
-**4.**Create Lambda Functions
+# 4 Create Lambda Functions
 
 add_student: Handle POST request
 
@@ -85,7 +85,7 @@ get_students: Handle GET request
 
 Attach IAM roles with DynamoDB access
 
-**5.**Create API Gateway
+# 5 Create API Gateway
 
 Configure POST /student → add_student Lambda
 
@@ -93,18 +93,18 @@ Configure GET /students → get_students Lambda
 
 Enable CORS
 
-**6.**Test the Application
+# 6 Test the Application
 
 Open S3 website link
 
 Add a student and see it reflected in the table
 
 
-📃 License
+# 📃 License
 This project is open-source and available under the MIT License.
 
 
-🙌 Acknowledgements
+# 🙌 Acknowledgements
 AWS for providing a robust serverless ecosystem
 
 You, for deploying and exploring cloud-native architecture
